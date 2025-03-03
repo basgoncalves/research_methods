@@ -22,4 +22,8 @@ https://colab.research.google.com/drive/1MQPLlt6CuMSz0j0lU1y5y2Ny2YJ1f8Eh
 
 * **Introduction:** Daily topic relevant methods
 * **Activity Overview:** Explain the activity: each student will throw a ball 10 times, recording their success rate. Groups will then analyze the data using Python.
-* **Individual learning (20 minutes)** Follo
+* **Individual learning (20 minutes)** Follow class guide individually or in groups
+* **Group Discussion (15 minutes):** Share findings and discuss different approaches.
+* **Conclusion (10 minutes):** Summarize key learnings and address any questions.
+
+
