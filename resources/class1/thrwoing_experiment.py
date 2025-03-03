@@ -51,10 +51,11 @@ class Experiment:
             self.results = pd.DataFrame()
             return
 
-        self.results = pd.DataFrame(data, columns=['Name', 'Trial', 'Score'])
+        self.results = pd.DataFrame(data, columns=['Group', 'Person', 'Trial', 'Score'])
 
     def save_results(self, filename):
         self.results.to_csv(filename, index=False)
+        print(f"Data saved to {filename}")
 
 #%% Input data manually
 number_of_groups = 3
@@ -67,7 +68,6 @@ experiment = Experiment(groups=3, people_per_group=5, throws_per_person=10)
 experiment.run_experiment(mode='Template') # Change to 'Template' to generate random data
 experiment.save_results(f'results_{group_name}.csv')
 experiment.results.head()
-
 
 
 
